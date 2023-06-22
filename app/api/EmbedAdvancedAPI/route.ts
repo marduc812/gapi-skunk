@@ -24,7 +24,7 @@ export async function POST(request: Request) {
         const finalPoc = `<iframe width="600" height="450" frameborder="0" style="border:0" src="${fullUrl}" allowfullscreen></iframe>`;
         return NextResponse.json({"status": "success","poc": finalPoc, "language": "html"});
     } else {
-        console.error('Error: ' + res.status);
+        
         return NextResponse.json({"status": "error","poc": "" });
     }
 }

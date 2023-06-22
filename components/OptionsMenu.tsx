@@ -32,10 +32,10 @@ const OptionsMenu: React.FC<OptionsMenuProps> = ({ options, setOptions, visibleM
 
   return (
     <div className='flex flex-col w-full items-center'>
-      <div className='flex flex-row justify-around w-full md:w-full lg:w-3/4 xl:w-1/2'>
-        <button className='mt-5 bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded' onClick={disableAllOptions}>Deselect All</button>
-        <button className='mt-5 bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded' onClick={enableAllOptions}>Select All</button>
-        <button className='mt-5 bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded' onClick={() => setVisibleMenu(!visibleMenu)}>{visibleMenu ? 'Hide Options' : 'Select Tests'}</button>
+      <div className='flex flex-row justify-around w-full md:w-full lg:w-3/4 xl:w-1/2 mt-5'>
+        <button className='bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-2 rounded' onClick={disableAllOptions}>Deselect All</button>
+        <button className='bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-2 rounded' onClick={enableAllOptions}>Select All</button>
+        <button className='bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-2 rounded' onClick={() => setVisibleMenu(!visibleMenu)}>{visibleMenu ? 'Hide Options' : 'Select Tests'}</button>
       </div>
 
 

@@ -60,7 +60,7 @@ export async function POST(request: Request) {
     if (res.status === 200) {
         return NextResponse.json({ "status": "success", "poc": finalPoc, "language": selectedLanguage });
     } else {
-        console.error('Error: ' + res.status);
+        
         return NextResponse.json({ "status": "error", "poc": "" });
     }
 }

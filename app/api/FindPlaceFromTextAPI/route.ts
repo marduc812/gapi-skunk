@@ -45,7 +45,7 @@ export async function POST(request: Request) {
         }
         return NextResponse.json({ "status": "success", "poc": finalPoc, "language": selectedLanguage });
     } else {
-        console.error('Error: ' + res.status);
+        
         return NextResponse.json({ "status": "error", "poc": "" });
     }
 }

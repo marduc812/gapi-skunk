@@ -16,7 +16,7 @@ const AnalysisResults = (props: AnalysisResultsProps) => {
   const { analysis, codeLanguage } = props;
 
   return (
-    <div className='w-full '>
+    <div className='w-full'>
       <div className='pt-10 flex flex-row justicy-center'>
         <Image src={'/vulnerable.svg'} alt={'vulnerable shield icon'} width={30} height={30} />
         <h4 className='text-2xl font-bold pl-2'>Vulnerable</h4>
@@ -63,7 +63,7 @@ const VulnerableResultView = (props: VulnerableAPI) => {
   };
   
   return (
-    <li className='m-5'>
+    <li>
       <h3 className='text-xl text-red-600 font-bold'>{props.name}</h3>
       <p className='text-slate-600'>{props.description}</p>
 

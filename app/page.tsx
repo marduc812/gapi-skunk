@@ -98,7 +98,7 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-5 lg:p-10 xl:p-12">
+    <main className="flex min-h-screen flex-col items-center p-2 lg:p-10 xl:p-12">
       <h1 className="text-4xl font-bold text-center group cursor-default flex flex-row">
         <Image src='/Google_Logo.svg' width={28} height={28} alt='logo' />
         <span className='hidden group-hover:inline'>oogle </span>
