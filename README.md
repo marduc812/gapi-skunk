@@ -13,6 +13,7 @@ The project is hosted on Vercel and can be accessed online, but it can also be s
 
 ## Web view
 ![Search View](./images/view-1.png)
+[...SNIP...]
 ![Search View](./images/view-2.png)
 
 ## Self Hosting
@@ -29,7 +30,7 @@ Run the application.
 docker run -it -p 3000:3000 gapi-skunk
 ```
 
-If you want it to run on a different port ex. 80 update the `-p` agument with 80:3000``.
+If you want it to run on a different port ex. 80 update the `-p` agument with `80:3000`.
 
 ## Usage
 
@@ -38,16 +39,16 @@ You can access the website directly or use it's API. The API calls are listed be
 
 ## Features
 
-- Automated scanning of Google API keys
-- Detection of misconfigurations
+- Automated scanning for Google API calls
+- Detection of key misconfigurations
 - Multi-language Proof of Concept codes
-- Support for 4 main Google categories
+- Support for the main 4 Google categories
 
-### Proof of Concept
+### Proof of Concept Languages
 
 - Powershell
 - Python
-- Bash
+- Bash(curl)
 
 ### Google Categories
 
